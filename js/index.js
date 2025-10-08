@@ -82,6 +82,7 @@ switch(month){
     break;
     default:
     alert("Неправильне число, Вибирайте від 1 до 12")
+    break;
 }
 
 const color = prompt("Введіть червоний, жовтий або зелений").toLowerCase().trim()
@@ -97,6 +98,7 @@ switch(color){
     break;
     default:
     alert("Неправильно введено, перечитайте умову")
+    break;
 }
 
 const a = prompt("Перше число:");
@@ -122,4 +124,5 @@ switch(op){
         break;
         default:
         console.log("error"); 
+        break;
 }
